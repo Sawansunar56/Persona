@@ -2,7 +2,7 @@ import HeroImage from "../assets/Persona Main Photo.png";
 
 function HeroSection() {
     return (
-        <div class="hero-section">
+        <div class="hero-section content-wrapper">
             <div>
                 <h1>
                     <span class="underline-wrapper">Hi, I am</span>

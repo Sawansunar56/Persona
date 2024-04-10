@@ -1,22 +1,16 @@
-function Footer() {
-    const data = [
-        "Things that I love to see",
-        "More of the stuff in the world",
-        "Lots of things",
-        "Science is fun to listen too",
-        "Programming is hard for beginners",
-    ]
+import footer_quotes from "../data/footer_data";
 
+function Footer() {
     return (
         <div class="footer-section">
             <div class="scroller" data-animated="true">
                 <ul class="scroller-inner">
-                    {data.map((quote, _) => (
+                    {footer_quotes.map((quote, _) => (
                         <li>
                             {quote}
                         </li>
                     ))}
-                    {data.map((quote, _) => (
+                    {footer_quotes.map((quote, _) => (
                         <li>
                             {quote}
                         </li>
