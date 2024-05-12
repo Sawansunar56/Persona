@@ -31,6 +31,7 @@
     --clr-accent: hsl(28, 100%, 90%);
     --clr-white: hsl(0, 5%, 96%);
     --clr-error: hsl(353, 67%, 54%);
+    --clr-dark: hsl(271, 23%, 10%);
 
     --clr-black-hsl: 225, 11%, 12%;
     --clr-black-100a: hsla(var(--clr-black-hsl), 100%);
@@ -40,6 +41,11 @@
     --clr-black-25a: hsla(var(--clr-black-hsl), 25%);
     --clr-black-10a: hsla(var(--clr-black-hsl), 10%);
     --clr-black-5a: hsla(var(--clr-black-hsl), 5%);
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 h1,

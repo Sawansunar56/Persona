@@ -1,0 +1,18 @@
+.game-idea-section {
+    background-color: var(--clr-dark);
+    height: 100vh;
+    position: relative;
+
+    .mega-shape {
+        margin: 8px;
+        height: 98%;
+        border-radius: var(--br-xl);
+        background-color: var(--clr-accent);
+        position: absolute;
+    }
+
+    img {
+        max-width: 100%;
+        height: 100%;
+    }
+}
